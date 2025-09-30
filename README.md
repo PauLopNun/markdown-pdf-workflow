@@ -19,9 +19,13 @@
 
 ## Ejemplos
 
-### Estilo Eisvogel
-![Ejemplo Eisvogel](assets/screenshots/screenshot1.png)  
-![Ejemplo Eisvogel](assets/screenshots/screenshot2.png)
+<h3 style="text-align:center;">Estilo Eisvogel</h3>
+
+<div style="text-align:center;">
+  <img src="assets/screenshots/screenshot1.png" alt="Ejemplo Eisvogel" width="400px" style="margin:10px;">
+  <img src="assets/screenshots/screenshot2.png" alt="Ejemplo Eisvogel" width="400px" style="margin:10px;">
+</div>
+
 
 ## Inicio Rápido
 
