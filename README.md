@@ -20,8 +20,8 @@
 ## Ejemplos
 
 ### Estilo Eisvogel
-![Ejemplo Eisvogel](assets\screenshots\screenshot1.png)
-![Ejemplo Eisvogel](assets\screenshots\screenshot2.png)
+![Ejemplo Eisvogel](assets/screenshots/screenshot1.png)  
+![Ejemplo Eisvogel](assets/screenshots/screenshot2.png)
 
 ## Inicio Rápido
 
