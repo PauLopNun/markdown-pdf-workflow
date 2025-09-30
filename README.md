@@ -22,8 +22,8 @@
 <h3 style="text-align:center;">Estilo Eisvogel</h3>
 
 <div style="text-align:center;">
-  <img src="assets/screenshots/screenshot1.png" alt="Ejemplo Eisvogel" style="height:400px; margin:10px; object-fit: contain;">
-  <img src="assets/screenshots/screenshot2.png" alt="Ejemplo Eisvogel" style="height:400px; margin:10px; object-fit: contain;">
+  <img src="assets/screenshots/screenshot1.png" alt="Ejemplo Eisvogel" style="height:400px; margin:10px; object-fit: contain; display:inline-block;">
+  <img src="assets/screenshots/screenshot2.png" alt="Ejemplo Eisvogel" style="height:400px; margin:10px; object-fit: contain; display:inline-block;">
 </div>
 
 
