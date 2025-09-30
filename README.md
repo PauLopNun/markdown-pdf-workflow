@@ -1,4 +1,4 @@
-# Markdown to PDF Workflow
+# Markdown to PDF Professional
 
 > Sistema completo y automatizado para convertir documentos Markdown a PDFs de calidad profesional con un solo comando.
 
@@ -16,6 +16,12 @@
 - Plantillas listas - Generador automático de documentos
 - Configuración reutilizable - Un setup, infinitos documentos
 - UTF-8 completo - Soporte para acentos, ñ y caracteres especiales
+
+## Ejemplos
+
+### Estilo Eisvogel
+![Ejemplo Eisvogel](assets\screenshots\screenshot1.png)
+![Ejemplo Eisvogel](assets\screenshots\screenshot2.png)
 
 ## Inicio Rápido
 
@@ -49,7 +55,6 @@ cd markdown-to-pdf-pro
 
 # Listo - Tu PDF profesional está generado
 ```
-
 ## Nota sobre ejecución de scripts en PowerShell
 
 En PowerShell hay dos formas de ejecutar scripts:
