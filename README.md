@@ -1,4 +1,4 @@
-# Markdown to PDF Professional
+# Markdown to PDF Workflow
 
 > Sistema completo y automatizado para convertir documentos Markdown a PDFs de calidad profesional con un solo comando.
 
@@ -39,8 +39,8 @@
 
 ```powershell
 # 1. Clonar repositorio
-git clone https://github.com/TU_USUARIO/markdown-to-pdf-pro.git
-cd markdown-to-pdf-pro
+git clone https://github.com/PauLopNun/markdown-pdf-workflow
+cd markdown-pdf-workflow
 
 # 2. Copiar scripts a tu carpeta de trabajo
 # O añadir al PATH de Windows para acceso global
@@ -72,7 +72,7 @@ En PowerShell hay dos formas de ejecutar scripts:
 ## Estructura del Proyecto
 
 ```
-markdown-to-pdf-pro/
+markdown-pdf-workflow/
 ├── scripts/
 │   ├── convert.ps1           # Script de conversión MD → PDF
 │   ├── new-doc.ps1            # Generador de plantillas
