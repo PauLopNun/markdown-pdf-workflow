@@ -1,0 +1,41 @@
+# PDFs generados
+*.pdf
+
+# Archivos temporales de LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+
+# Archivos temporales de Pandoc
+*.bak
+*~
+
+# Archivos temporales de Word/Office
+~$*.md
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Carpetas de Node 
+node_modules/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-*
+
+# Archivos de configuración local
+config.local.yaml
