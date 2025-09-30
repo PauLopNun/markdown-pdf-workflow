@@ -50,6 +50,16 @@ cd markdown-to-pdf-pro
 # Listo - Tu PDF profesional está generado
 ```
 
+## Nota sobre ejecución de scripts en PowerShell
+
+En PowerShell hay dos formas de ejecutar scripts:
+
+- `.\script.ps1` → Obliga a usar un archivo que esté exactamente en la carpeta actual.  
+- `script.ps1` (sin `.\`) → PowerShell lo busca en el **PATH** o en la ubicación actual según su configuración.
+
+👉 Si no añadiste la carpeta `scripts/` al **PATH**, deberás usar `.\` y estar en la carpeta donde están los `.ps1`.  
+👉 Si añadiste `scripts/` al **PATH**, puedes llamar `new-doc.ps1` y `convert.ps1` directamente desde cualquier carpeta.
+
 ## Estructura del Proyecto
 
 ```
