@@ -4,7 +4,7 @@ author: "Pau López Núñez"
 date: "30.09.2025"
 subject: "Tutorial de Conversión MD a PDF"
 titlepage: true
-titlepage-rule-height: 2
+titlepage-rule-height: 0
 toc: true
 toc-own-page: true
 titlepage-background: ./portada.jpg
@@ -20,11 +20,10 @@ Antes de empezar, necesitas tener instalado:
 
 ## Archivos Necesarios
 
-Para trabajar necesitas estos tres archivos en tu carpeta de trabajo:
+Para trabajar necesitas estos archivos en tu carpeta de trabajo:
 
 1. `convert.ps1` - Convierte Markdown a PDF
 2. `new-doc.ps1` - Crea plantillas automáticamente
-3. `pandoc-config.yaml` - Configuración de estilo (opcional)
 
 ## Ubicación Recomendada
 
@@ -115,7 +114,7 @@ Los documentos Eisvogel incluyen estas líneas comentadas en el YAML:
 - Más rápido
 - Diseño limpio y minimalista
 - Ideal para documentos técnicos
-- Usa `pandoc-config.yaml`
+- Configuración básica integrada
 
 **Uso:**
 ```powershell
@@ -180,9 +179,6 @@ Los documentos Eisvogel incluyen estas líneas comentadas en el YAML:
 - Instala MiKTeX desde https://miktex.org/download
 - Añade MiKTeX al PATH de Windows
 
-## Error: "defaults file not found"
-
-**Solución:** Crea el archivo `pandoc-config.yaml` en la carpeta del script
 
 ## El PDF tiene errores de formato
 

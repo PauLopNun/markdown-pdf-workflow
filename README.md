@@ -35,6 +35,8 @@
 2. **[Pandoc](https://pandoc.org/installing.html)** - Conversor de documentos
 3. **[MiKTeX](https://miktex.org/download)** - Motor LaTeX (~300MB)
 
+> 🐧 **Para Linux:** Ve a [Tutorial Linux](docs/TUTORIAL-LINUX.md)
+
 ### Instalación
 
 ```powershell
@@ -63,10 +65,10 @@ cd markdown-pdf-workflow
 
 En PowerShell hay dos formas de ejecutar scripts:
 
-- `.\script.ps1` → Obliga a usar un archivo que esté exactamente en la carpeta actual.  
+- `.\script.ps1` → Obliga a usar un archivo que esté exactamente en la carpeta actual.
 - `script.ps1` (sin `.\`) → PowerShell lo busca en el **PATH** o en la ubicación actual según su configuración.
 
-👉 Si no añadiste la carpeta `scripts/` al **PATH**, deberás usar `.\` y estar en la carpeta donde están los `.ps1`.  
+👉 Si no añadiste la carpeta `scripts/` al **PATH**, deberás usar `.\` y estar en la carpeta donde están los `.ps1`.
 👉 Si añadiste `scripts/` al **PATH**, puedes llamar `new-doc.ps1` y `convert.ps1` directamente desde cualquier carpeta.
 
 ## Estructura del Proyecto
@@ -75,15 +77,17 @@ En PowerShell hay dos formas de ejecutar scripts:
 markdown-pdf-workflow/
 ├── scripts/
 │   ├── convert.ps1           # Script de conversión MD → PDF
-│   ├── new-doc.ps1            # Generador de plantillas
-│   └── pandoc-config.yaml     # Configuración estilo simple
+│   ├── convert.sh            # Script de conversión MD → PDF (Linux)
+│   ├── new-doc.ps1           # Generador de plantillas
+│   ├── new-doc.sh            # Generador de plantillas (Linux)
 ├── ejemplos/
 │   ├── documento-simple.md
 │   ├── documento-eisvogel.md
 │   ├── portada.jpg            # Ejemplo de portada
 │   └── watermark.png          # Ejemplo de marca de agua
 ├── docs/
-│   └── TUTORIAL.md            # Tutorial completo
+│   ├── TUTORIAL-WINDOWS.md    # Tutorial completo (Windows)
+│   └── TUTORIAL-LINUX.md      # Tutorial completo (Linux)
 └── README.md
 ```
 
@@ -125,9 +129,10 @@ def hola_mundo():
 
 ## Documentación
 
-- [Tutorial Completo](docs/TUTORIAL.md)
-- [Solución de Problemas](docs/TUTORIAL.md#solución-de-problemas)
-- [Tips y Trucos](docs/TUTORIAL.md#tips-y-trucos)
+- [Tutorial Completo](docs/TUTORIAL-WINDOWS.md)
+- [Tutorial Linux](docs/TUTORIAL-LINUX.md)
+- [Solución de Problemas](docs/TUTORIAL-WINDOWS.md#solución-de-problemas)
+- [Tips y Trucos](docs/TUTORIAL-WINDOWS.md#tips-y-trucos)
 
 ## Contribuir
 
